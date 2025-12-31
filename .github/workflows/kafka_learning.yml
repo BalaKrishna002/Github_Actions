@@ -16,7 +16,7 @@ jobs:
 
       - name: Download Kafka
         run: |
-          wget https://downloads.apache.org/kafka/3.6.1/kafka_2.13-3.6.1.tgz
+          wget https://archive.apache.org/dist/kafka/3.6.1/kafka_2.13-3.6.1.tgz
           tar -xzf kafka_2.13-3.6.1.tgz
 
       - name: Configure Kafka for External Access
